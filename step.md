@@ -45,4 +45,7 @@ hello/
 
 
 ------------------------
-## connect view to url
+## -> Add a View (Hello World) - hello/views.py
+
+## connect view to url - mysite/urls.py
+
