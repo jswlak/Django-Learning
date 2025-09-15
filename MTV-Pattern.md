@@ -19,4 +19,5 @@
 
     View = Logic to fetch posts and render them
 
-Create App - python manage.py startapp blog
+Step 1 - Create App - python manage.py startapp blog
+Step 2 - add 'blog' to INSTALLED_APPS in mysite/settings.py 
