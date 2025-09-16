@@ -21,10 +21,14 @@
 
 Step 1 - Create App - python manage.py startapp blog
 Step 2 - add 'blog' to INSTALLED_APPS in mysite/settings.py 
-step 3 - create models blog/models.py
+Step 3 - create models blog/models.py
     run migration 
     python manage.py makemigrations
     python manage.py migrate
 
+Step 4 -  Create Superuser - to add post easily
+    python manage.py createsuperuser
 
 
+Step 5 - Register model in Admin
+    blog/admin.py
