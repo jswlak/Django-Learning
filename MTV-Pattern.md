@@ -32,3 +32,10 @@ Step 4 -  Create Superuser - to add post easily
 
 Step 5 - Register model in Admin
     blog/admin.py
+
+Step 6 - Create View
+    blog/views.py
+
+
+
+
