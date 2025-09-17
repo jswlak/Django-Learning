@@ -39,3 +39,7 @@ Step 6 - Create View
 
 
 
+Step 7 - Add URL
+    mysite/urls.py
+
+
