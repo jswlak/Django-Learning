@@ -21,11 +21,21 @@ from django.urls import path
 
 
 
-from hello import views   # import our app view
+
+# from hello import views   # import our app view
+
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('', views.home, name="home"),  # homepage
+#     path('about/', views.about, name="about"), #about-page
+
+# ]
+
+from blog import views #import our app (blog) view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name="home"),  # homepage
-     path('about/', views.about, name="about"), #about-page
+    path('', views.post_list, name="post_list"),
 ]
+
 
