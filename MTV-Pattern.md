@@ -45,3 +45,14 @@ Step 7 - Add URL
 Step 8 - Create Template
     blog/templates/blog/post_list.html
 
+To run - python manage.py runserver
+
+Overview of MTV (Django)
+
+    Model → BlogPost in models.py
+
+    Template → post_list.html (HTML with Django tags)
+
+    View → post_list in views.py    
+
+This is the Django workflow we’ll use in every project.
