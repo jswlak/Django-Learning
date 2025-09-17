@@ -42,4 +42,6 @@ Step 6 - Create View
 Step 7 - Add URL
     mysite/urls.py
 
+Step 8 - Create Template
+    blog/templates/blog/post_list.html
 
